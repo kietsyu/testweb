@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: 'jetbrains-sans'; /* Choose a name for your font */
-    src: url('fonts/JetBrainsSans-Regular.woff2') format('woff2');
+    src: url('/fonts/JetBrainsSans-Regular.woff2') format('woff2');
 }
 
 * {
