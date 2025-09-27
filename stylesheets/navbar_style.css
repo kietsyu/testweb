@@ -13,10 +13,9 @@
 }
 
 :root {
-    --dark-clr: #FFEDA8;
-    --light-clr: #003631;
+    --light-clr: #FFEDA8;
+    --dark-clr: #003631;
     --bg-clr: #222327;
-    --indi-clr: #1bfff7;
 }
 
 body {
@@ -29,7 +28,7 @@ body {
 .navigation {
     width: 180px;
     height: 1030px;
-    background: var(--dark-clr);
+    background: var(--light-clr);
     border-radius: 30px;
 
     position: relative;
@@ -69,19 +68,19 @@ body {
     line-height: 180px;
     font-size: 4em;
     text-align: center;
-    color: var(--light-clr);
+    color: var(--dark-clr);
     transition: 0.5s;
     top: 8px
 }
 
 .navigation ul li.active a .icon {
     transform: translateX(90px);
-    color: var(--dark-clr);
+    color: var(--light-clr);
 }
 
 .navigation ul li a .text {
     position: absolute;
-    color: var(--light-clr);
+    color: var(--dark-clr);
     font-weight: 500;
     font-size: 1.8em;
     letter-spacing: 0.05em;
@@ -102,7 +101,7 @@ body {
     right: -50%;
     width: 180px;
     height: 180px;
-    background: var(--light-clr);
+    background: var(--dark-clr);
     border-radius: 50%;
     border: var(--bg-clr) 10px solid;
     transition: 0.5s;
