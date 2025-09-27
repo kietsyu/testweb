@@ -13,8 +13,8 @@
 }
 
 :root {
-    --nav-clr: #daffea;
-    --nav-text-clr: rgb(36, 36, 36);
+    --dark-clr: #003631;
+    --light-clr: #FFEDA8;
     --bg-clr: #222327;
     --indi-clr: #1bfff7;
 }
@@ -29,7 +29,7 @@ body {
 .navigation {
     width: 180px;
     height: 1030px;
-    background: var(--nav-clr);
+    background: var(--dark-clr);
     border-radius: 30px;
 
     position: relative;
@@ -69,18 +69,19 @@ body {
     line-height: 180px;
     font-size: 4em;
     text-align: center;
-    color: var(--nav-text-clr);
+    color: var(--light-clr);
     transition: 0.5s;
     top: 8px
 }
 
 .navigation ul li.active a .icon {
     transform: translateX(90px);
+    color: var(--dark-clr);
 }
 
 .navigation ul li a .text {
     position: absolute;
-    color: var(--nav-text-clr);
+    color: var(--light-clr);
     font-weight: 500;
     font-size: 1.8em;
     letter-spacing: 0.05em;
@@ -101,7 +102,7 @@ body {
     right: -50%;
     width: 180px;
     height: 180px;
-    background: var(--indi-clr);
+    background: var(--light-clr);
     border-radius: 50%;
     border: var(--bg-clr) 10px solid;
     transition: 0.5s;
@@ -120,7 +121,7 @@ body {
     left: -22px;
     width: 70px;
     height: 40px;
-    background: var(-indi-clr);
+    background: transparent;
     border-bottom-right-radius: 33px;
     box-shadow: 20px 0px 0px 0px var(--bg-clr);
 }
@@ -137,7 +138,7 @@ body {
     left: -22px;
     width: 70px;
     height: 40px;
-    background: var(-indi-clr);
+    background: transparent;
     border-top-right-radius: 33px;
     box-shadow: 20px 0px 0px 0px var(--bg-clr);
 }
