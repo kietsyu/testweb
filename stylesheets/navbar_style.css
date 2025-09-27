@@ -111,7 +111,7 @@ body {
 .indicator::before{
     display: block;
     margin-left: -70px;
-    margin-top: -45px;
+    margin-top: -50px;
 }
 
 .indicator::before {
